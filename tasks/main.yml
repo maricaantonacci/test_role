@@ -1,0 +1,6 @@
+---
+# tasks file for test_role
+- name: Test role
+  template:
+    src: templates/mytemplate.j2
+    dest: /tmp/mytemplate.txt
